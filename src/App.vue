@@ -1,5 +1,6 @@
 <template>
     <div class="page-container">
+        <img class="bg-img" src="@/assets/bg.png" alt="" loading="lazy" />
         <MainPage />
     </div>
 </template>
@@ -11,15 +12,19 @@
 <style scoped>
     @import './assets/main.css';
 
+    .bg-img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
     .page-container {
         position: relative;
         display: flex;
         flex-direction: column;
         min-height: 100vh;
-        background-image: url('@/assets/bg.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center 65%;
-        background-color: var(--color-bg);
     }
 </style>

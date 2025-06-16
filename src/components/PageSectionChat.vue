@@ -74,7 +74,6 @@
         flex-direction: column;
         height: 100%;
         padding: 1rem;
-        box-shadow: -1px 0 8px rgba(0, 0, 0, 0.1);
     }
 
     /* ========================================================= */

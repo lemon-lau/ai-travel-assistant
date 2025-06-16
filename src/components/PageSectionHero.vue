@@ -155,9 +155,9 @@
     .hero-subtext {
         font-family: var(--font-main);
         font-weight: 500;
-        font-size: 1.125rem;
+        font-size: 1rem;
         color: var(--color-subtext);
-        line-height: 1.6;
+        line-height: 1.5;
         margin-bottom: 2rem;
     }
 
