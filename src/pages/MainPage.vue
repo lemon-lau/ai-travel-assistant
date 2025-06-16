@@ -108,8 +108,8 @@
 
     const scrapeArticleData = async () => {
         try {
+            isLoadingCode.value = true;
             await scrapeData();
-            isLoadingCode.value = false;
             setTimeout(() => {
                 closeCodeModal();
             }, 2000)
@@ -120,6 +120,7 @@
 
     const closeCodeModal = () => {
         showCodeModal.value = false;
+        isLoadingCode.value = false;
     };
 </script>
 
