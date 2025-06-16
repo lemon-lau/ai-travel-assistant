@@ -16,20 +16,20 @@
         v-if="showCodeModal"
         :is-loading-code="isLoadingCode"
         @scrape-data="scrapeArticleData"
-        @close-modal="closeCodeModal"
-    />
+        @close-modal="closeCodeModal
+    "/>
 </template>
 
 <script setup>
     import { ref } from 'vue'
-    import PageHeader from '../components/PageHeader.vue';
+    import PageHeader from './PageHeader.vue';
 
-    import PageSectionHero from '../components/PageSectionHero.vue';
-    import PageSectionChat from '../components/PageSectionChat.vue';
+    import PageSectionHero from './PageSectionHero.vue';
+    import PageSectionChat from './PageSectionChat.vue';
 
-    import CodeModal from '../components/CodeModal.vue';
+    import CodeModal from './CodeModal.vue';
 
-    import { sendMessageToChat, scrapeData, getHistory } from '../api/index.js'
+    import { sendMessageToChat, scrapeData, getHistory } from '@/api/index'
 
     const AI_NAME = "Shermans AI";
 

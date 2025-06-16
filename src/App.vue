@@ -1,12 +1,12 @@
-<script setup>
-import MainPage from './pages/MainPage.vue'
-</script>
-
 <template>
     <div class="page-container">
         <MainPage />
     </div>
 </template>
+
+<script setup>
+    import MainPage from './pages/MainPage.vue'
+</script>
 
 <style scoped>
     @import './assets/main.css';
