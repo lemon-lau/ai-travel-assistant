@@ -1,10 +1,11 @@
 # ai-travel-assistant
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple single-page chatbot web application created using Vue JS to assist travellers with their iteneraries in key areas: Alaska, Carribean & Bahamas, Hawaii, and Northern Europe.
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- [Backend](https://github.com/lemon-lau/lau-ai-travel-assistant-django)
 
 ## Customize configuration
 
